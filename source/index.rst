@@ -12,12 +12,3 @@ Welcome to interview's documentation!
 
    example
    readdocs
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
