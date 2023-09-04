@@ -10,5 +10,4 @@ Welcome to interview's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   example
    readdocs

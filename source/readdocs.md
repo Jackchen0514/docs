@@ -1,16 +1,19 @@
-# How to use Read the Docs
+# How to use read the docs by sphinx
+
+!!! note
+    Thie is a note
 
 ## ubuntu20.04 install sphinx
 
-1. Update the Package List:
-```
+Update the Package List:
+```bash
 sudo apt update
 sudo apt upgrade
 ```
 
 
-2. Install Python and pip:
-```
+Install Python and pip:
+```bash
 sudo apt install python3-pip
 ```
 
