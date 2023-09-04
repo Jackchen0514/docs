@@ -17,12 +17,12 @@ Install Python and pip:
 sudo apt install python3-pip
 ```
 
-3. Install Sphinx:
+Install Sphinx:
 ```
 pip3 install sphinx
 ```
 
-4. Verify Installation:
+Verify Installation:
 ```
 sphinx-build --version
 ```
@@ -37,7 +37,7 @@ Then, in your Sphinx project's conf.py file, you can set the theme by modifying 
 html_theme = "sphinx_rtd_theme"
 ```
 
-6. Start a New Sphinx Project:
+Start a New Sphinx Project:
 ```
 mkdir mydocs
 cd mydocs
@@ -46,12 +46,12 @@ sphinx-quickstart
 
 ## Show Markdown Docs
 
-1. install recommonmark:
+install recommonmark:
 ```
 pip3 install recommonmark
 ```
 
-2. in 'conf.py' file, add text:
+in 'conf.py' file, add text:
 ```
 # 在文件顶部添加：
 from recommonmark.parser import CommonMarkParser
@@ -66,14 +66,14 @@ source_parsers = {
 
 ```
 
-3. create a new Markdown file, such as 'example.md'
+create a new Markdown file, such as 'example.md'
 ```
 # My Markdown Page
 
 This is a sample page written in Markdown.
 ```
 
-4. Add a new Markdown file to 'index.rst'
+Add a new Markdown file to 'index.rst'
 ```
 .. toctree::
    :maxdepth: 2
@@ -82,29 +82,29 @@ This is a sample page written in Markdown.
    example
 ```
 
-5. build docs
+build docs
 ```
 make html
 ```
 
-6. review docs
+review docs
 in `mydocs/build/html`, find `index.html` file
 open it with chrome
 
 ## build project On Read the Docs
 
-1. create or update `requirements.txt` file:
+create or update `requirements.txt` file:
 ```
 recommonmark
 ```
 
 
-2. 配置Read the Docs以使用requirements.txt:
+配置Read the Docs以使用requirements.txt:
 
 登录到Read the Docs并进入您的项目的管理页面。
 在“Admin”部分，选择“Advanced Settings”。
 在“Requirements file”字段中，输入requirements.txt的路径（相对于项目的根目录）。
 保存更改。
 
-3. 触发新的构建
+触发新的构建
 
